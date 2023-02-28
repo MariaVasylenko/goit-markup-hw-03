@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!--Header-->
     <header class="header">
+      <div class="container header-container">
       <nav class="header-navigation">
         <a class="header-logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
         <!--Navigation-->
@@ -28,15 +30,19 @@
           <li><a href="tel:+110001111111" class="header-tel link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <!--Hero section-->
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-btn btn">Order Service</button>
+        </div>
       </section>
       <!--Advantage-->
-      <section class="advantage">
+      <section class="advantage section">
+        <div class="container">
         <h2 class="advantage-subtitle visually-hidden">Advantage list</h2>
         <ul class="advantage-list list">
           <li class="advantage-item">
@@ -68,9 +74,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!--Work examples-->
-      <section class="work-examples">
+      <section class="work-examples section"><div class="container">
         <h2 class="work-examples-subtitle">What are we doing</h2>
         <ul class="work-examples-list list">
           <li class="work-examples-item">
@@ -91,9 +98,10 @@
             <img src="./images/what-we-do-3.jpg" alt="phone in hand" width="360" />
           </li>
         </ul>
+        </div>
       </section>
       <!--Team-->
-      <section class="team">
+      <section class="team section"><div class="container">
         <h2 class="team-subtitle">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
@@ -101,47 +109,49 @@
               src="./images/co-worker1.jpg"
               alt="co-worker Product Designer"
               width="264"
-            />
+            /><div class="content-section">
             <h3 class="team-user">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
+            <p class="team-text">Product Designer</p></div>
           </li>
           <li class="team-item">
             <img
               src="./images/co-worker2.jpg"
               alt="co-worker Frontend Developer"
               width="264"
-            />
+            /><div class="content-section">
             <h3 class="team-user">Tom Ford</h3>
-            <p class="team-text">Frontend Developer</p>
+            <p class="team-text">Frontend Developer</p></div>
           </li>
           <li class="team-item">
             <img
               src="./images/co-worker3.jpg"
               alt="co-worker Marketing"
               width="264"
-            />
+            /><div class="content-section">
             <h3 class="team-user">Camila Garcia</h3>
-            <p class="team-text">Marketing</p>
+            <p class="team-text">Marketing</p></div>
           </li>
           <li class="team-item">
             <img
               src="./images/co-worker4.jpg"
               alt="co-worker UI Designer"
               width="264"
-            />
+            /><div class="content-section">
             <h3 class="team-user">Daniel Wilson</h3>
-            <p class="team-text">UI Designer</p>
+            <p class="team-text">UI Designer</p></div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
+    <footer class="footer"><div class="container">
       <a class="footer-logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
