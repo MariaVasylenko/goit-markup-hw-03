@@ -317,6 +317,8 @@ border-radius: 0px 0px 4px 4px;
 .project-item{
     align-items: baseline;
     width: calc((100%-24px*2)/3);
+    max-width: 100%;
+    height: auto;
 }
 
 .content-section{
